@@ -164,7 +164,7 @@ function AdminRegistrationPageController() {
     if (token) {
       navigate("/");
     }
-  }, []);
+  }, [navigate]);
   return {
     handleChange,
     handleSubmit,

@@ -134,7 +134,7 @@ function LoginController() {
     if (token) {
       navigate("/");
     }
-  }, []);
+  }, [navigate]);
 
   return {
     handleChange,

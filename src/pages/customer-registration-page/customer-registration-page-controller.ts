@@ -163,7 +163,7 @@ function CustomerRegistrationPageController() {
     if (token) {
       navigate("/");
     }
-  }, []);
+  }, [navigate]);
 
   return {
     handleChange,
