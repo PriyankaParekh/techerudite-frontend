@@ -57,6 +57,7 @@ function Home() {
 
   useEffect(() => {
     getAlluser();
+    //eslint-disable-next-line
   }, []);
 
   const renderTable = (title: string, role: string) => {
